@@ -4,7 +4,7 @@ package com.github.gwtbootstraptour.client;
  * #%L
  * GwtBootstrapTour
  * %%
- * Copyright (C) 2013 - 2014 Tap2Ask
+ * Copyright (C) 2013 - 2014 Christian Lacerda
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -196,82 +196,82 @@ public class Tour extends JavaScriptObject {
         return this._options.template;
     }-*/;
 
-    public final native void afterGetState(com.github.gwtbootstraptour.client.functions.keyvalue.Function callback)/*-{
+    public final native void afterGetState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
         this._options.afterGetState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.keyvalue.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
-    public final native void afterSetState(com.github.gwtbootstraptour.client.functions.keyvalue.Function callback)/*-{
+    public final native void afterSetState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
         this._options.afterSetState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.keyvalue.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
-    public final native void afterRemoveState(com.github.gwtbootstraptour.client.functions.keyvalue.Function callback)/*-{
+    public final native void afterRemoveState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
         this._options.afterRemoveState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.keyvalue.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
     public final native void onStart(Function callback)/*-{
         this._options.onStart = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onEnd(Function callback)/*-{
         this._options.onEnd = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onShow(Function callback)/*-{
         this._options.onShow = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onShown(Function callback)/*-{
         this._options.onShown = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onHide(Function callback)/*-{
         this._options.onHide = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onHidden(Function callback)/*-{
         this._options.onHidden = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onNext(Function callback)/*-{
         this._options.onNext = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
 
     public final native void onPrev(Function callback)/*-{
         this._options.onPrev = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;)(tour);
+            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onPause(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
         this._options.onPause = $entry(function (tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;I)(tour, duration)
+            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration)
         });
     }-*/;
 
     public final native void onResume(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
         this._options.onResume = $entry(function (tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/tap2ask/web/gwt/bootstraptour/client/Tour;I)(tour, duration);
+            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration);
         });
     }-*/;
 }
