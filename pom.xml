@@ -6,7 +6,7 @@
 
     <groupId>com.github.gwtbootstraptour</groupId>
     <artifactId>gwt-bootstrap-tour</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.9.3</version>
 
     <properties>
         <project.encoding>UTF-8</project.encoding>
