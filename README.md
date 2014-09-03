@@ -1,4 +1,4 @@
-gwt-bootstrap-tour
+Gwt-Bootstrap-Tour
 ==================
 
-GWT wrapper for [Bootstraptour](https://github.com/sorich87/bootstrap-tour) JS project
+A GWT wrapper for [Bootstraptour](https://github.com/sorich87/bootstrap-tour) JS project
