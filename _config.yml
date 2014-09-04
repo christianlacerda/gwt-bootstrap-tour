@@ -1,9 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Gwt Bootstrap Tour
+email: christian.mails@gmail.com
+description: "A GWT wrapper for Bootstraptour JS library"
 baseurl: "/gwt-bootstrap-tour"
-url: "http://yourdomain.com"
+url: "http://christianlacerda.github.io"
 twitter_username: christianlacerd
 github_username:  christianlacerda
 
