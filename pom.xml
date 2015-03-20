@@ -20,7 +20,7 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git://github.com/christianlacerda/gwt-bootstrap-tour.git</connection>
+        <connection>scm:git:https://github.com/christianlacerda/gwt-bootstrap-tour.git</connection>
         <developerConnection>scm:git:git@github.com:christianlacerda/gwt-bootstrap-tour.git</developerConnection>
         <url>http://github.com/christianlacerda/gwt-bootstrap-tour</url>
     </scm>
