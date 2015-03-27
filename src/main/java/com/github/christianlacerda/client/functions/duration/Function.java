@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client;
+package com.github.christianlacerda.client.functions.duration;
 
 /*
  * #%L
@@ -20,20 +20,13 @@ package com.github.gwtbootstraptour.client;
  * #L%
  */
 
+import com.github.christianlacerda.client.Tour;
+
 /**
- * Created by christian on 24/08/14.
+ * Generic interface to use as callback
+ * Created by christian on 19/08/14.
  */
-public enum Placement {
+public interface Function {
 
-    TOP("top"), LEFT("left"), BOTTOM("bottom"), RIGHT("right");
-
-    private String value;
-
-    private Placement(String value) {
-        this.value = value;
-    }
-
-    public String getValue() {
-        return this.value;
-    }
+    void execute(Tour tour, int duration);
 }

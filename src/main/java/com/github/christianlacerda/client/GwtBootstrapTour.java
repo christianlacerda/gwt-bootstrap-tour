@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client;
+package com.github.christianlacerda.client;
 
 /*
  * #%L
@@ -20,9 +20,9 @@ package com.github.gwtbootstraptour.client;
  * #L%
  */
 
+import com.github.christianlacerda.client.bundle.Resources;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.ScriptInjector;
-import com.github.gwtbootstraptour.client.bundle.Resources;
 
 /**
  * Created by christian on 19/08/14.

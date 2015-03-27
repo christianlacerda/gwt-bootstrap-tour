@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client;
+package com.github.christianlacerda.client;
 
 /*
  * #%L
@@ -22,7 +22,6 @@ package com.github.gwtbootstraptour.client;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.dom.client.Element;
-import com.github.gwtbootstraptour.client.functions.Function;
 
 /**
  * Created by christian on 19/08/14.
@@ -196,82 +195,82 @@ public class Tour extends JavaScriptObject {
         return this._options.template;
     }-*/;
 
-    public final native void afterGetState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
+    public final native void afterGetState(com.github.christianlacerda.client.functions.map.Function callback)/*-{
         this._options.afterGetState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.christianlacerda.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
-    public final native void afterSetState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
+    public final native void afterSetState(com.github.christianlacerda.client.functions.map.Function callback)/*-{
         this._options.afterSetState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.christianlacerda.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
-    public final native void afterRemoveState(com.github.gwtbootstraptour.client.functions.map.Function callback)/*-{
+    public final native void afterRemoveState(com.github.christianlacerda.client.functions.map.Function callback)/*-{
         this._options.afterRemoveState = $entry(function (key, value) {
-            callback.@com.github.gwtbootstraptour.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
+            callback.@com.github.christianlacerda.client.functions.map.Function::execute(Ljava/lang/String;Ljava/lang/String;)(key, value);
         });
     }-*/;
 
-    public final native void onStart(Function callback)/*-{
+    public final native void onStart(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onStart = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onEnd(Function callback)/*-{
+    public final native void onEnd(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onEnd = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onShow(Function callback)/*-{
+    public final native void onShow(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onShow = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onShown(Function callback)/*-{
+    public final native void onShown(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onShown = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onHide(Function callback)/*-{
+    public final native void onHide(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onHide = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onHidden(Function callback)/*-{
+    public final native void onHidden(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onHidden = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onNext(Function callback)/*-{
+    public final native void onNext(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onNext = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
 
-    public final native void onPrev(Function callback)/*-{
+    public final native void onPrev(com.github.christianlacerda.client.functions.Function callback)/*-{
         this._options.onPrev = $entry(function (tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onPause(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
+    public final native void onPause(com.github.christianlacerda.client.functions.duration.Function callback)/*-{
         this._options.onPause = $entry(function (tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration)
+            callback.@com.github.christianlacerda.client.functions.duration.Function::execute(Lcom/github/christianlacerda/client/Tour;I)(tour, duration)
         });
     }-*/;
 
-    public final native void onResume(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
+    public final native void onResume(com.github.christianlacerda.client.functions.duration.Function callback)/*-{
         this._options.onResume = $entry(function (tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration);
+            callback.@com.github.christianlacerda.client.functions.duration.Function::execute(Lcom/github/christianlacerda/client/Tour;I)(tour, duration);
         });
     }-*/;
 }

@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client;
+package com.github.christianlacerda.client;
 
 /*
  * #%L
@@ -20,9 +20,9 @@ package com.github.gwtbootstraptour.client;
  * #L%
  */
 
+import com.github.christianlacerda.client.functions.Function;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.dom.client.Element;
-import com.github.gwtbootstraptour.client.functions.Function;
 
 /**
  * Created by christian on 19/08/14.
@@ -175,49 +175,49 @@ public class Step extends JavaScriptObject {
 
     public final native void onShow(Function callback)/*-{
         this.onShow = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onShown(Function callback)/*-{
         this.onShown = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onHide(Function callback)/*-{
         this.onHide = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onHidden(Function callback)/*-{
         this.onHidden = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onNext(Function callback)/*-{
         this.onNext = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
     public final native void onPrev(Function callback)/*-{
         this.onPrev = $entry(function(tour) {
-            callback.@com.github.gwtbootstraptour.client.functions.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;)(tour);
+            callback.@com.github.christianlacerda.client.functions.Function::execute(Lcom/github/christianlacerda/client/Tour;)(tour);
         });
     }-*/;
 
-    public final native void onPause(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
+    public final native void onPause(com.github.christianlacerda.client.functions.duration.Function callback)/*-{
         this.onPause = $entry(function(tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration);
+            callback.@com.github.christianlacerda.client.functions.duration.Function::execute(Lcom/github/christianlacerda/client/Tour;I)(tour, duration);
         });
     }-*/;
 
-    public final native void onResume(com.github.gwtbootstraptour.client.functions.duration.Function callback)/*-{
+    public final native void onResume(com.github.christianlacerda.client.functions.duration.Function callback)/*-{
         this.onResume = $entry(function(tour, duration) {
-            callback.@com.github.gwtbootstraptour.client.functions.duration.Function::execute(Lcom/github/gwtbootstraptour/client/Tour;I)(tour, duration);
+            callback.@com.github.christianlacerda.client.functions.duration.Function::execute(Lcom/github/christianlacerda/client/Tour;I)(tour, duration);
         });
     }-*/;
 }

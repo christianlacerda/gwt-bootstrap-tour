@@ -4,7 +4,7 @@
 
     <groupId>com.github.christianlacerda</groupId>
     <artifactId>gwt-bootstrap-tour</artifactId>
-    <version>0.9.6-SNAPSHOT</version>
+    <version>0.10.1-SNAPSHOT</version>
 
     <name>Gwt Bootstrap Tour</name>
     <description>This is a Google Web Toolkit wrapper library for BootstrapTour JavaScript project.</description>

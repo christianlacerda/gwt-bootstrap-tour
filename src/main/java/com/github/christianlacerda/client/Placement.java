@@ -1,10 +1,10 @@
-package com.github.gwtbootstraptour.client.bundle;
+package com.github.christianlacerda.client;
 
 /*
  * #%L
  * GwtBootstrapTour
  * %%
- * Copyright (C) 2013 - 2014 Tap2Ask
+ * Copyright (C) 2013 - 2014 Christian Lacerda
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,20 +20,20 @@ package com.github.gwtbootstraptour.client.bundle;
  * #L%
  */
 
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.resources.client.ClientBundle;
-import com.google.gwt.resources.client.TextResource;
-
 /**
- * Created by christian on 19/08/14.
+ * Created by christian on 24/08/14.
  */
-public interface Resources extends ClientBundle {
+public enum Placement {
 
-    static final Resources INSTANCE = GWT.create(Resources.class);
+    TOP("top"), LEFT("left"), BOTTOM("bottom"), RIGHT("right");
 
-    @Source("jquery-1.11.1.min.js")
-    TextResource jQuery();
+    private String value;
 
-    @Source("bootstrap-tour-standalone.min.js")
-    TextResource bootstrapTour();
+    Placement(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return this.value;
+    }
 }

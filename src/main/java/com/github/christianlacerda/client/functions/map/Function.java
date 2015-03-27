@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client.functions;
+package com.github.christianlacerda.client.functions.map;
 
 /*
  * #%L
@@ -20,13 +20,12 @@ package com.github.gwtbootstraptour.client.functions;
  * #L%
  */
 
-import com.github.gwtbootstraptour.client.Tour;
-
 /**
  * Generic interface to use as callback
  * Created by christian on 19/08/14.
  */
 public interface Function {
 
-    public void execute(Tour tour);
+    void execute(String key, String value);
+
 }

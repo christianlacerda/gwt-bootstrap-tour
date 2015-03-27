@@ -1,10 +1,10 @@
-package com.github.gwtbootstraptour.client.functions.map;
+package com.github.christianlacerda.client.bundle;
 
 /*
  * #%L
  * GwtBootstrapTour
  * %%
- * Copyright (C) 2013 - 2014 Christian Lacerda
+ * Copyright (C) 2013 - 2014 Tap2Ask
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,12 +20,20 @@ package com.github.gwtbootstraptour.client.functions.map;
  * #L%
  */
 
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.resources.client.TextResource;
+
 /**
- * Generic interface to use as callback
  * Created by christian on 19/08/14.
  */
-public interface Function {
+public interface Resources extends ClientBundle {
 
-    public void execute(String key, String value);
+    Resources INSTANCE = GWT.create(Resources.class);
 
+    @Source("jquery-1.11.1.min.js")
+    TextResource jQuery();
+
+    @Source("bootstrap-tour-standalone.min.js")
+    TextResource bootstrapTour();
 }

@@ -1,4 +1,4 @@
-package com.github.gwtbootstraptour.client.functions.duration;
+package com.github.christianlacerda.client.functions;
 
 /*
  * #%L
@@ -20,7 +20,7 @@ package com.github.gwtbootstraptour.client.functions.duration;
  * #L%
  */
 
-import com.github.gwtbootstraptour.client.Tour;
+import com.github.christianlacerda.client.Tour;
 
 /**
  * Generic interface to use as callback
@@ -28,5 +28,5 @@ import com.github.gwtbootstraptour.client.Tour;
  */
 public interface Function {
 
-    public void execute(Tour tour, int duration);
+    void execute(Tour tour);
 }

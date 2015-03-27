@@ -25,7 +25,7 @@
     <inherits name="com.google.gwt.core.Core"/>
     <inherits name="com.google.gwt.resources.Resources"/>
 
-    <entry-point class='com.github.gwtbootstraptour.client.GwtBootstrapTour'/>
+    <entry-point class='com.github.christianlacerda.client.GwtBootstrapTour'/>
 
     <source path="client"/>
     <stylesheet src="bootstrap-tour-standalone.min.css"/>
