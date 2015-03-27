@@ -6,7 +6,7 @@ baseurl: "/gwt-bootstrap-tour"
 url: "http://christianlacerda.github.io"
 twitter_username: christianlacerd
 github_username:  christianlacerda
-project_version: 0.9.3
+project_version: 0.10.1
 
 # Build settings
 markdown: kramdown
